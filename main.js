@@ -335,10 +335,10 @@ class RestApiService {
         this.getTranslatedSeriesJson = "{ \"mode\": \"get-translated-series\" }";
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({
-                'Content-Type': 'application/json'
-                // 'Access-Control-Allow-Origin': '*',
-                // 'Access-Control-Allow-Methods': 'DELETE, POST, GET, OPTIONS',
-                // 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With'
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Methods': 'DELETE, POST, GET, OPTIONS',
+                'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With'
             })
             //params: new HttpParams(getTranslatedSeriesJson)
         };
